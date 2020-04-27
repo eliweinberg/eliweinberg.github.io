@@ -1,0 +1,74 @@
+
+
+
+
+h4{
+
+  animation-timing-function: cubic-bezier();
+  animation-name: tomx;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+
+h3{
+
+  animation-timing-function: cubic-bezier();
+  animation-name: tom;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+
+html {
+    background: url(Background.png);
+    background-size: 100%;
+    opacity: 100%
+  }
+
+
+
+@keyframes tom {
+  to{
+    margin-right: 5px
+  }
+
+  from{
+    margin-left: 5px;
+  }
+
+20% {
+  opacity: 25;
+}
+
+50%{
+  transform: rotate(2deg);
+}
+}
+
+@keyframes tomx {
+  to{
+    margin-right: 5px
+  }
+
+  from{
+    margin-left: 5px;
+  }
+
+20% {
+  opacity: 25;
+}
+
+50%{
+  transform: rotate(-2deg);
+}
+}

@@ -1,0 +1,34 @@
+body {
+  cursor: default;
+
+}
+.projects{
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height:250px;
+}
+
+.wave{
+  animation-timing-function: cubic-bezier();
+  display: inline-block;
+  animation-name: wave;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+
+
+html {
+    background: url(Background.png);
+    background-size: 100%;
+    opacity: 100%
+  }
+
+
+
+
+
+
+}
